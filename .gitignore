@@ -1,0 +1,16 @@
+# Cache dan sampah Python
+__pycache__/
+*.pyc
+
+# Log dan temporary files
+*.log
+*.bak
+*.swp
+
+# Secrets
+.env
+config/odoo_pg_pass
+
+# Volume data (jika ada di lokal)
+db_data/
+odoo-data-volume/
