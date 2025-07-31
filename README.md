@@ -1,6 +1,6 @@
 # Proyek Implementasi Website Operasional UMKM Penjualan Pakan Burung
 
-Proyek ini merupakan implementasi sistem ERP berbasis Odoo versi 18 untuk mendukung operasional UMKM yang bergerak di bidang penjualan pakan burung. Sistem ini dikemas menggunakan Docker agar mudah dijalankan dan dikelola.
+Proyek ini merupakan implementasi sistem ERP berbasis Odoo versi terbaru (v18) untuk mendukung operasional UMKM di bidang penjualan pakan burung. Sistem ini dikemas menggunakan Docker agar mudah dijalankan, dikembangkan, dan dikelola secara fleksibel.
 
 ---
 
@@ -34,3 +34,9 @@ docker-compose up -d
 - **Docker Hub - PostgreSQL**  
   [https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres)  
   Image resmi PostgreSQL untuk kebutuhan database pada proyek.
+
+---
+
+## Author
+
+[@arifnoerramadhan](https://www.instagram.com/arifnoerramadhan/)
