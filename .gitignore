@@ -10,7 +10,3 @@ __pycache__/
 # Secrets
 .env
 config/odoo_pg_pass
-
-# Volume data (jika ada di lokal)
-db_data/
-odoo-data-volume/
