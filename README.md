@@ -5,22 +5,21 @@ Proyek ini merupakan implementasi sistem ERP berbasis Odoo versi 18 untuk menduk
 ---
 
 ## Struktur Proyek
-1[Struktur Proyek](images/stuktur-project.png)
+![Struktur Proyek](images/stuktur-project.png)
 
 
 ---
 
 ## Cara Menjalankan
 
-1. Pastikan Docker dan Docker Compose sudah terpasang di komputer Anda.
-
+1. Pastikan Docker dan Docker Compose sudah terpasang di server atau komputer Anda.
 2. Pastikan file password PostgreSQL ada di `config/odoo_pg_pass` dengan isi password (contoh: `odoo123`).
 
 3. Jalankan perintah berikut di folder proyek:
 
 ```bash
 docker-compose up -d
-
+```
 
 ## Referensi
 
