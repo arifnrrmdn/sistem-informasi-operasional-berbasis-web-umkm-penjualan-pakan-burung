@@ -1,31 +1,37 @@
+# Proyek Implementasi Website Operasional UMKM Penjualan Pakan Burung
 
-# Odoo 18 Development using docker setup by Ariev
+Proyek ini merupakan implementasi sistem ERP berbasis Odoo versi 18 untuk mendukung operasional UMKM yang bergerak di bidang penjualan pakan burung. Sistem ini dikemas menggunakan Docker agar mudah dijalankan dan dikelola.
 
-Tolong do'ain pembuat repo ini biar cepet ketemu jodoh
+---
+
+## Struktur Proyek
+1[Struktur Proyek](images/stuktur-project.png)
 
 
-project ini running di port 9999 | 
-master password : salimatmin
+---
 
+## Cara Menjalankan
 
-## Installation
+1. Pastikan Docker dan Docker Compose sudah terpasang di komputer Anda.
 
-tinggal ketik aja diterminal kalo error ya syukurin gue juga pusing
+2. Pastikan file password PostgreSQL ada di `config/odoo_pg_pass` dengan isi password (contoh: `odoo123`).
+
+3. Jalankan perintah berikut di folder proyek:
 
 ```bash
-docker compose up -d
-```
+docker-compose up -d
 
 
-## Authors
+## Referensi
 
-- [@arifnramdhan](https://github.com/arifnrrmdn) sendiri aj
+- **Dokumentasi Odoo 18**  
+  [https://www.odoo.com/documentation/18.0/](https://www.odoo.com/documentation/18.0/)  
+  Dokumentasi resmi Odoo versi 18 untuk pengembangan dan konfigurasi.
 
+- **Docker Hub - Odoo**  
+  [https://hub.docker.com/_/odoo](https://hub.docker.com/_/odoo)  
+  Informasi resmi image Docker Odoo yang digunakan dalam proyek.
 
-## Screenshots
-
-![App Screenshot](https://github.com/arifnrrmdn/odoo18-docker/blob/main/screenshots/3.png)
-![App Screenshot](https://github.com/arifnrrmdn/odoo18-docker/blob/main/screenshots/1.png)
-![App Screenshot](https://github.com/arifnrrmdn/odoo18-docker/blob/main/screenshots/2.png)
-
-
+- **Docker Hub - PostgreSQL**  
+  [https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres)  
+  Image resmi PostgreSQL untuk kebutuhan database pada proyek.
