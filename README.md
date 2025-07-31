@@ -21,6 +21,14 @@ Proyek ini merupakan implementasi sistem ERP berbasis Odoo versi terbaru (v18) u
 docker-compose up -d
 ```
 
+##  Lingkungan Pengembangan
+
+Pengembangan dan pengujian sistem dilakukan di:
+
+- **Sistem Operasi**: Kali Linux (berbasis Debian)
+- **Perangkat**: Dell Vostro 13 5310
+
+
 ## Referensi
 
 - **Dokumentasi Odoo 18**  
